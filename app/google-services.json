@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "51450734288",
+    "project_id": "bansfinal",
+    "storage_bucket": "bansfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51450734288:android:491ba661161d43126e60d5",
+        "android_client_info": {
+          "package_name": "com.example.bans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51450734288-tp1lpse9gvca491mpk782k0qp6vqfc1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRelJm6jOwkPqTVZJRYzOc1QRzQtP6bmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51450734288-tp1lpse9gvca491mpk782k0qp6vqfc1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

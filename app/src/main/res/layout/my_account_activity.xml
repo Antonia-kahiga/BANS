@@ -1,0 +1,336 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+
+				<RelativeLayout android:id="@+id/shape_down"
+					android:layout_marginTop="506dp"
+					android:layout_marginStart="225dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_3"
+						android:background="@drawable/ellipse_3_shape"
+						 android:alpha="0.37000000476837"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:layout_width="200dp"
+						android:layout_height="200dp" />
+
+					<View   android:id="@+id/ellipse_4"
+						android:background="@drawable/ellipse_4_shape"
+						 android:alpha="0.37000000476837"
+						 android:layout_marginStart="64dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="200dp"
+						android:layout_height="200dp" />
+
+				</RelativeLayout>
+
+	<com.google.android.material.bottomnavigation.BottomNavigationView
+		android:id="@+id/navigation"
+		android:layout_width="400dp"
+		android:layout_height="56dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="11dp"
+		android:layout_marginTop="602dp"
+		android:layout_marginEnd="0dp">
+
+		<ImageButton
+			android:id="@+id/vector"
+			android:layout_width="41dp"
+			android:layout_height="match_parent"
+			android:layout_marginStart="230dp"
+			android:contentDescription="vector"
+			android:src="@drawable/heartpulse_image_foreground" />
+
+		<ImageButton
+			android:id="@+id/vector_ek1"
+			android:layout_width="42dp"
+			android:layout_height="match_parent"
+			android:layout_marginStart="130dp"
+			android:layout_marginTop="0dp"
+			android:contentDescription="vector_ek1"
+			android:src="@drawable/chat_image_foreground" />
+
+		<ImageButton
+			android:id="@+id/vector_ek2"
+			android:layout_width="45dp"
+			android:layout_height="match_parent"
+			android:layout_marginStart="30dp"
+			android:layout_marginTop="0dp"
+			android:contentDescription="vector_ek2"
+			android:src="@drawable/home_image_foreground" />
+
+		<ImageButton
+			android:id="@+id/vector_ek3"
+			android:layout_width="40dp"
+			android:layout_height="50dp"
+			android:layout_marginStart="320dp"
+			android:layout_marginTop="0dp"
+			android:contentDescription="vector_ek3"
+			android:src="@drawable/smiley_image_foreground" />
+
+	</com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+				<ImageView android:id="@+id/vector_ek5"
+					android:src="@drawable/back_icon"
+					android:contentDescription="vector_ek5"
+					 android:layout_marginStart="20dp"
+					android:layout_marginTop="76dp"
+					android:layout_width="40dp"
+					android:layout_height="50dp" />
+
+				<TextView
+					android:id="@+id/christina_evans"
+					android:layout_width="232.5dp"
+					android:layout_height="55.5dp"
+					android:layout_marginLeft="86dp"
+					android:layout_marginTop="286dp"
+					android:fontFamily="sans-serif-medium"
+					android:text="@string/christina_evans_string"
+					android:textColor="@color/christina_evans_color"
+					android:textSize="25sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/student_mit"
+					android:layout_width="128dp"
+					android:layout_height="40dp"
+					android:layout_marginLeft="125dp"
+					android:layout_marginTop="320dp"
+					android:fontFamily="sans-serif-medium"
+					android:text="@string/student_mit_string"
+					android:textColor="@color/christina_evans_color"
+					android:textSize="18sp" />
+
+	<View
+		android:id="@+id/rectangle_9"
+		android:layout_width="320dp"
+		android:layout_height="63dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="47dp"
+		android:layout_marginTop="349dp"
+		android:layout_marginEnd="44dp"
+		android:background="@drawable/rectangle_9_shape" />
+
+	<View
+		android:id="@+id/rectangle_11"
+		android:layout_width="320dp"
+		android:layout_height="63dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="50dp"
+		android:layout_marginTop="505dp"
+		android:layout_marginEnd="41dp"
+		android:background="@drawable/rectangle_11_shape" />
+
+	<View
+		android:id="@+id/rectangle_10"
+		android:layout_width="320dp"
+		android:layout_height="63dp"
+		android:layout_alignParentEnd="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginStart="20dp"
+		android:layout_marginTop="426dp"
+		android:layout_marginEnd="44dp"
+		android:background="@drawable/rectangle_10_shape" />
+
+	<TextView
+		android:id="@+id/joined_date"
+		android:layout_width="133dp"
+		android:layout_height="40dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="114dp"
+		android:layout_marginLeft="80dp"
+		android:layout_marginTop="352dp"
+		android:layout_marginEnd="164dp"
+		android:fontFamily="sans-serif-medium"
+		android:text="@string/joined_date_string"
+		android:textColor="@color/christina_evans_color"
+		android:textSize="18sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/outreach"
+		android:layout_width="110dp"
+		android:layout_height="40dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="114dp"
+		android:layout_marginLeft="82dp"
+		android:layout_marginTop="428dp"
+		android:layout_marginEnd="187dp"
+		android:fontFamily="sans-serif-medium"
+		android:text="@string/outreach_string"
+		android:textColor="@color/christina_evans_color"
+		android:textSize="18sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/_17th_may_2023"
+		android:layout_width="147dp"
+		android:layout_height="40dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="112dp"
+		android:layout_marginLeft="82dp"
+		android:layout_marginTop="376dp"
+		android:layout_marginEnd="152dp"
+		android:fontFamily="sans-serif-medium"
+		android:text="@string/_17th_may_2023_string"
+		android:textColor="@color/christina_evans_color"
+		android:textSize="18sp" />
+
+	<TextView
+		android:id="@+id/_23"
+		android:layout_width="44dp"
+		android:layout_height="40dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="112dp"
+		android:layout_marginLeft="82dp"
+		android:layout_marginTop="535dp"
+		android:layout_marginEnd="254dp"
+		android:fontFamily="sans-serif-medium"
+		android:text="@string/_23_string"
+		android:textColor="@color/christina_evans_color"
+		android:textSize="18sp" />
+
+	<TextView
+		android:id="@+id/_17_054_users"
+		android:layout_width="130dp"
+		android:layout_height="40dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="112dp"
+		android:layout_marginLeft="80dp"
+		android:layout_marginTop="455dp"
+		android:layout_marginEnd="169dp"
+		android:fontFamily="sans-serif-medium"
+		android:text="@string/_17_054_users_string"
+		android:textColor="@color/christina_evans_color"
+		android:textSize="18sp" />
+
+	<ImageView
+		android:id="@+id/vector_ek6"
+		android:layout_width="46dp"
+		android:layout_height="39dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="58dp"
+		android:layout_marginTop="361dp"
+		android:layout_marginEnd="307dp"
+		android:contentDescription="vector_ek6"
+		android:src="@drawable/calendar_month_24" />
+
+	<ImageView
+		android:id="@+id/vector_ek7"
+		android:layout_width="46dp"
+		android:layout_height="39dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="62dp"
+		android:layout_marginTop="441dp"
+		android:layout_marginEnd="303dp"
+		android:contentDescription="vector_ek7"
+		android:src="@drawable/airplane_ticket_24" />
+
+
+	<ImageView
+		android:id="@+id/vector_ek8"
+		android:layout_width="46dp"
+		android:layout_height="39dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="62dp"
+		android:layout_marginTop="515dp"
+		android:layout_marginEnd="303dp"
+		android:contentDescription="vector_ek8"
+		android:src="@drawable/baseline_assignment_24" />
+
+	<RelativeLayout android:id="@+id/shape"
+					android:layout_marginTop="-124dp"
+					android:layout_marginStart="-127dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_1"
+						android:background="@drawable/ellipse_1_shape"
+						 android:alpha="0.37000000476837"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="65dp"
+						android:layout_width="200dp"
+						android:layout_height="200dp" />
+
+					<View   android:id="@+id/ellipse_2"
+						android:background="@drawable/ellipse_2_shape"
+						 android:alpha="0.37000000476837"
+						 android:layout_marginStart="79dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="200dp"
+						android:layout_height="200dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/app_name"
+					android:layout_marginTop="22dp"
+					android:layout_marginStart="17dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView
+						android:id="@+id/bans"
+						android:layout_width="118dp"
+						android:layout_height="66dp"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="sans-serif-black"
+						android:text="@string/bans_string"
+						android:textColor="@color/christina_evans_color"
+						android:textSize="30sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+	<TextView
+		android:id="@+id/projects"
+		android:layout_width="97dp"
+		android:layout_height="40dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_marginStart="113dp"
+		android:layout_marginLeft="80dp"
+		android:layout_marginTop="512dp"
+		android:layout_marginEnd="200dp"
+		android:fontFamily="sans-serif-medium"
+		android:text="@string/projects_string"
+		android:textColor="@color/christina_evans_color"
+		android:textSize="18sp"
+		android:textStyle="bold" />
+
+	<ImageView android:id="@+id/ellipse_5"
+					android:src="@drawable/evans"
+					android:contentDescription="ellipse_5"
+					 android:layout_marginStart="77dp"
+					android:layout_marginTop="94dp"
+					android:layout_width="200dp"
+					android:layout_height="200dp" />
+
+
+
+
+
+</RelativeLayout>

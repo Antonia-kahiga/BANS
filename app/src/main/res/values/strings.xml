@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BANS</string>
+	<string name="welcome_to_bans_string">Welcome to BANS</string>
+	<string name="your_body_awareness_networking_society_string">Your Body Awareness Networking Society</string>
+	<string name="__txt_coninue_string">Continue</string>
+	<string name="chats_string">Chats</string>
+	<string name="_15_string">15</string>
+	<string name="hi__how_s_the_app_coming__string">Hi, hows the app coming?</string>
+	<string name="_11_00am_string">11:00am</string>
+	<string name="binnie_string">Binnie</string>
+	<string name="_2_string">2</string>
+	<string name="challenge_negative_thoughts_string">challenge negative thoughts</string>
+	<string name="focus_on_the_positive_string">Focus on the positive</string>
+	<string name="show_your_body_love_string">Show your body love</string>
+	<string name="quotes_for_you_string">quotes for you</string>
+	<string name="log_in_string">Log in</string>
+	<string name="not_a_member__sign_up_string">Not a  member, Sign Up</string>
+	<string name="welcome_back_string">WELCOME BACK</string>
+	<string name="christina_evans_string">Christina Evans</string>
+	<string name="student_mit_string">Student MIT</string>
+	<string name="joined_date_string">Joined Date</string>
+	<string name="outreach_string">Outreach</string>
+	<string name="_17th_may_2023_string">17th May 2023</string>
+	<string name="_23_string">23</string>
+	<string name="_17_054_users_string">17,054 users</string>
+	<string name="projects_string">Projects</string>
+	<string name="notifications_string">Notifications</string>
+	<string name="today_string">Today</string>
+	<string name="clear_all_string">Clear all</string>
+	<string name="now_string">Now</string>
+	<string name="meghan_phoebe_string">Meghan Phoebe</string>
+	<string name="sent_a_support_gift_card___string">Sent a support Gift Card!!</string>
+    <string name="ek_img_content">ExportKit Image</string>
+	<string name="bans_string">BANS</string>
+	<string name="sign_up_string">Sign up</string>
+	<string name="google__sign_up_string">Google, Sign Up</string>
+	<string name="go_to__login_string">Go to, Login</string>
+	<string name="new_here__string">New Here, </string>
+	<string name="create_account_string">CREATE ACCOUNT</string>
+	<string name="username_string">Username</string>
+	<string name="username_ek1_string">Confirm Password</string>
+	<string name="username_ek2_string">Password</string>
+	<string name="username_ek3_string">Email</string>
+
+	<string name="bans">ImageButtonInKotlin</string>
+</resources>

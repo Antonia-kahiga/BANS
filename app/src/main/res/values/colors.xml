@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="_bg__main_activity_ek2_color">#F2F0EC</color>
+	<color name="__txt_coninue_color">#0A0000</color>
+    <color name="_bg__chat_activity_ek2_color">#F2F0EC</color>
+	<color name="hi__how_s_the_app_coming__color">#0F0E0E</color>
+	<color name="_11_00am_color">#6C63FF</color>
+	<color name="binnie_color">#0D0000</color>
+    <color name="_bg__dashboard_activity_ek2_color">#F2F0EC</color>
+    <color name="_bg__login_activity_ek2_color">#F2F0EC</color>
+	<color name="rectangle_6_color">#D9D9D9</color>
+    <color name="_bg__my_account_activity_ek2_color">#F2F0EC</color>
+	<color name="christina_evans_color">#000000</color>
+	<color name="rectangle_9_color">#D9D9D9</color>
+    <color name="_bg__notification_activity_ek2_color">#F2F0EC</color>
+	<color name="today_color">#564444</color>
+	<color name="rectangle_7_color">#A3BCBB</color>
+	<color name="now_color">#716868</color>
+    <color name="_bg__signup_activity_ek2_color">#F2F0EC</color>
+	<color name="ellipse_3_color">#F3EA17</color>
+	<color name="bans_color">#000000</color>
+	<color name="rectangle_4_color">#D9D9D9</color>
+	<color name="colorPrimary">#F3EA17</color>
+	<color name="colorPrimaryDark">#D9D9D9</color>
+	<color name="colorAccent">#000000</color>
+
+</resources>

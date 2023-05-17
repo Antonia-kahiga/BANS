@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/home_icon"/>
+    <item android:title="Chat"
+        android:id="@+id/chats"
+        android:icon="@drawable/chat_icon2"/>
+    <item android:title="Activity"
+        android:id="@+id/notification"
+        android:icon="@drawable/heart_icon"/>
+    <item android:title="Account"
+        android:id="@+id/account"
+        android:icon="@drawable/face_smile_solid"/>
+
+</menu>

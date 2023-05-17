@@ -1,0 +1,265 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+
+
+				<RelativeLayout android:id="@+id/shape_down"
+					android:layout_marginTop="506dp"
+					android:layout_marginStart="225dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_3"
+						android:background="@drawable/ellipse_3_shape"
+						 android:alpha="0.37000000476837"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:layout_width="200dp"
+						android:layout_height="200dp" />
+
+					<View   android:id="@+id/ellipse_4"
+						android:background="@drawable/ellipse_4_shape"
+						 android:alpha="0.37000000476837"
+						 android:layout_marginStart="64dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="200dp"
+						android:layout_height="200dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/shape"
+					android:layout_marginTop="-124dp"
+					android:layout_marginStart="-127dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_1"
+						android:background="@drawable/ellipse_1_shape"
+						 android:alpha="0.37000000476837"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="65dp"
+						android:layout_width="200dp"
+						android:layout_height="200dp" />
+
+					<View   android:id="@+id/ellipse_2"
+						android:background="@drawable/ellipse_2_shape"
+						 android:alpha="0.37000000476837"
+						 android:layout_marginStart="79dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="200dp"
+						android:layout_height="200dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/app_name"
+					android:layout_marginTop="22dp"
+					android:layout_marginStart="17dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView
+						android:id="@+id/bans"
+						android:layout_width="118dp"
+						android:layout_height="66dp"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="sans-serif-black"
+						android:text="@string/bans_string"
+						android:textColor="@color/bans_color"
+						android:textSize="30sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+
+	<Button
+		android:id="@+id/sign_up"
+		android:layout_width="338dp"
+		android:layout_height="71dp"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginStart="30dp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="440dp"
+		android:fontFamily="sans-serif-medium"
+		android:gravity="center"
+		android:text="@string/sign_up_string"
+		android:textColor="@color/bans_color"
+		android:backgroundTint="#F3EA17"
+		android:textSize="20sp" />
+
+	<TextView
+		android:id="@+id/go_to__login"
+		android:layout_width="132dp"
+		android:layout_height="44dp"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginLeft="119dp"
+		android:layout_marginTop="602dp"
+		android:fontFamily="sans-serif-medium"
+		android:gravity="center"
+		android:text="@string/go_to__login_string"
+		android:textColor="@color/bans_color"
+		android:textSize="20sp" />
+
+	<TextView
+		android:id="@+id/new_here_"
+		android:layout_width="115dp"
+		android:layout_height="44dp"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginLeft="127dp"
+		android:layout_marginTop="76dp"
+		android:fontFamily="sans-serif-medium"
+		android:gravity="center"
+		android:text="@string/new_here__string"
+		android:textColor="@color/bans_color"
+		android:textSize="20sp" />
+
+	<TextView
+		android:id="@+id/create_account"
+		android:layout_width="290dp"
+		android:layout_height="66dp"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginLeft="40dp"
+		android:layout_marginTop="98dp"
+		android:fontFamily="sans-serif-medium"
+		android:gravity="center"
+		android:text="@string/create_account_string"
+		android:textColor="@color/bans_color"
+		android:textSize="30sp" />
+
+				<View   android:id="@+id/rectangle_4"
+					android:background="@drawable/rectangle_4_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="187dp"
+					android:layout_width="357dp"
+					android:layout_height="50dp" />
+
+				<View   android:id="@+id/rectangle_5"
+					android:background="@drawable/rectangle_5_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="187dp"
+					android:layout_width="357dp"
+					android:layout_height="50dp" />
+
+
+				<RelativeLayout android:id="@+id/input"
+					android:layout_marginTop="187dp"
+					android:layout_marginStart="2dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View
+						android:id="@+id/rectangle_6"
+						android:layout_width="357dp"
+						android:layout_height="50dp"
+						android:layout_marginStart="20dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/rectangle_6_shape" />
+
+					<EditText
+						android:id="@+id/username"
+						android:layout_width="130dp"
+						android:layout_height="44dp"
+						android:layout_marginLeft="30dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="sans-serif-medium"
+						android:hint="@string/username_string"
+						android:textColor="@color/bans_color"
+						android:textColorHint="@color/bans_color"
+						android:textSize="20sp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/input_ek1"
+					android:layout_marginTop="364dp"
+					android:layout_marginStart="2dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_6_ek1"
+						android:background="@drawable/rectangle_6_ek1_shape"
+						android:layout_marginStart="20dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="357dp"
+						android:layout_height="50dp" />
+
+					<EditText
+						android:id="@+id/username_ek1"
+						android:layout_width="210dp"
+						android:layout_height="44dp"
+						android:layout_marginLeft="30dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="sans-serif-medium"
+						android:hint="@string/username_ek1_string"
+						android:textColorHint="@color/bans_color"
+						android:textColor="@color/bans_color"
+						android:textSize="20sp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/input_ek2"
+					android:layout_marginTop="305dp"
+					android:layout_marginStart="2dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_6_ek2"
+						android:background="@drawable/rectangle_6_ek2_shape"
+						 android:layout_marginStart="20dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="357dp"
+						android:layout_height="50dp" />
+
+					<EditText
+						android:id="@+id/username_ek2"
+						android:layout_width="123dp"
+						android:layout_height="44dp"
+						android:layout_marginLeft="30dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="sans-serif-medium"
+						android:hint="@string/username_ek2_string"
+						android:textColorHint="@color/bans_color"
+						android:textColor="@color/bans_color"
+						android:textSize="20sp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/input_ek3"
+					android:layout_marginTop="246dp"
+					android:layout_marginStart="2dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_6_ek3"
+						android:background="@drawable/rectangle_6_ek3_shape"
+						android:layout_marginStart="20dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="357dp"
+						android:layout_height="50dp" />
+
+					<EditText
+						android:id="@+id/username_ek3"
+						android:layout_width="81dp"
+						android:layout_height="44dp"
+						android:layout_marginLeft="30dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="sans-serif-medium"
+						android:hint="@string/username_ek3_string"
+						android:textColorHint="@color/bans_color"
+						android:textColor="@color/bans_color"
+						android:textSize="20sp" />
+
+				</RelativeLayout>
+</RelativeLayout>
