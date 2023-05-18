@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class ChatActivity : AppCompatActivity(){
     lateinit var buttonHome: ImageButton
-    lateinit var buttonChat: ImageButton
+//    lateinit var buttonChat: ImageButton
     lateinit var buttonNotification: ImageButton
     lateinit var buttonAccount: ImageButton
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +15,7 @@ class ChatActivity : AppCompatActivity(){
         setContentView(R.layout.chat_activity)
 
         buttonHome = findViewById(R.id.vector_ek2)
-        buttonChat = findViewById(R.id.vector_ek2)
+//        buttonChat = findViewById(R.id.vector_ek2)
         buttonNotification = findViewById(R.id.vector)
         buttonAccount = findViewById(R.id.vector_ek2)
 
@@ -24,11 +24,11 @@ class ChatActivity : AppCompatActivity(){
             startActivity(intent)
             finish()
         }
-        buttonChat.setOnClickListener {
-            val intent = Intent(this,ChatActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
+//        buttonChat.setOnClickListener {
+//            val intent = Intent(this,ChatActivity::class.java)
+//            startActivity(intent)
+//            finish()
+//        }
         buttonNotification.setOnClickListener {
             val intent = Intent(this,NotificationActivity::class.java)
             startActivity(intent)

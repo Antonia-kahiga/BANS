@@ -9,7 +9,7 @@ class MyAccountActivity : AppCompatActivity(){
     lateinit var buttonHome: ImageButton
     lateinit var buttonChat: ImageButton
     lateinit var buttonNotification: ImageButton
-    lateinit var buttonAccount: ImageButton
+//    lateinit var buttonAccount: ImageButton
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.my_account_activity)
@@ -17,7 +17,7 @@ class MyAccountActivity : AppCompatActivity(){
         buttonHome = findViewById(R.id.vector_ek2)
         buttonChat = findViewById(R.id.vector_ek2)
         buttonNotification = findViewById(R.id.vector)
-        buttonAccount = findViewById(R.id.vector_ek2)
+//        buttonAccount = findViewById(R.id.vector_ek2)
 
         buttonHome.setOnClickListener {
             val intent = Intent(this,DashboardActivity::class.java)
@@ -34,11 +34,11 @@ class MyAccountActivity : AppCompatActivity(){
             startActivity(intent)
             finish()
         }
-        buttonAccount.setOnClickListener {
-            val intent = Intent(this,MyAccountActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
+//        buttonAccount.setOnClickListener {
+//            val intent = Intent(this,MyAccountActivity::class.java)
+//            startActivity(intent)
+//            finish()
+//        }
 
 
     }
